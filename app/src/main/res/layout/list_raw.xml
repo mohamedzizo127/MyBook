@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/cardview_compat_inset_shadow"
+     android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:padding="@dimen/cardview_default_radius"
+         android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/listRawTVNameID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Book Title"
+            android:paddingLeft="@dimen/small"
+            android:paddingRight="@dimen/small"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/listRawTVAutherID"
+            android:paddingLeft="@dimen/small"
+            android:paddingRight="@dimen/small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Auther"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+             android:layout_marginBottom="15dp">
+
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/listRawBtnDeleteID"
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:background="@android:drawable/ic_delete"/>
+
+            <Button
+                android:id="@+id/listRawBtnEditID"
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@android:drawable/ic_menu_edit" />
+            <CheckBox
+                android:id="@+id/listRawCBDoneID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/done"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- dp size . -->
+
+    <dimen name="xxx_small">2dp</dimen>
+    <dimen name="xx_small">4dp</dimen>
+    <dimen name="x_small">8dp</dimen>
+    <dimen name="small">16dp</dimen>
+    <dimen name="medium">18dp</dimen>
+    <dimen name="big">24dp</dimen>
+    <dimen name="x_big">32dp</dimen>
+    <!-- sp size . -->
+    <dimen name="text_size_header">18sp</dimen>
+    <dimen name="text_size_title">14sp</dimen>
+    <!-- view dp size . -->
+    <dimen name="size1">150dp</dimen>
+    <dimen name="size2">250dp</dimen>
+    <dimen name="size3">32dp</dimen>
+    <dimen name="size4">32dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+</resources>

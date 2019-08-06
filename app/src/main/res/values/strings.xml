@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Book</string>
+    <string name="detailes_activity">Details</string>
+    <string name="add_activity">Adding</string>
+    <string name="update_activity">updating</string>
+    <string name="sort_action">Sort by:</string>
+    <string name="sort_date">Entering Date:</string>
+    <string name="done">Done Reading:</string>
+    <string name="sure_text">Are You Sure ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="book_name">BooK Name:</string>
+    <string name="author">Author Name:</string>
+    <string name="rate">Rate Value:</string>
+    <string name="ubdate">Update Your Book</string>
+    <string name="add_header">Add A New Book</string>
+    <string name="add_comfirmatin">Add Another Book ? </string>
+
+
+    <string name="save">Save</string>
+    <string name="detailesHeader">Details of your Book</string>
+    <string name="back">Back</string>
+    <string name="searcg_header">Search By</string>
+    <string name="search_by_name">Search By Book</string>
+    <string name="search_by_author">Search By Author</string>
+    <string name="search_now">Search</string>
+    <string name="sort_by">Sort By</string>
+    <string name="title_activity_to_temp">ToTempAct</string>
+    <string name="select">Slect Path</string>
+
+
+</resources>

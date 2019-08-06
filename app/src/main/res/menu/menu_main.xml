@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mybook.mohamed.mybook.Activities.MainActivity">
+    <item
+        android:title="@string/sort_by"
+        android:id="@+id/menueSortID"
+        app:showAsAction="always"
+
+
+        />
+    <item
+        android:title="@string/book_name"
+        android:id="@+id/menueNameID"
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:title="@string/author"
+        android:id="@+id/menueAuthorID"
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:title="@string/rate"
+        android:id="@+id/menueRateID"
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:id="@+id/menueDateID"
+        android:orderInCategory="100"
+        android:title="@string/sort_date"
+        app:showAsAction="never"
+        >
+
+    </item>
+</menu>

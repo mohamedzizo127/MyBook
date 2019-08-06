@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activities.AddActivity">
+
+    <TextView
+        android:textSize="@dimen/text_size_header"
+        android:layout_marginBottom="@dimen/small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_header" />
+
+    <TableRow
+        android:layout_margin="@dimen/xx_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/book_name"
+            />
+
+        <EditText
+            android:id="@+id/addEdNameID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/book_name"
+            android:inputType="text" />
+    </TableRow>
+    <TableRow
+        android:layout_marginBottom="@dimen/xx_small"
+        android:layout_marginRight="@dimen/xx_small"
+        android:layout_marginLeft="@dimen/xx_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            />
+
+        <EditText
+            android:id="@+id/addEdAutherID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/author"
+            android:inputType="text" />
+    </TableRow>
+    <TableRow
+        android:layout_marginBottom="@dimen/xx_small"
+        android:layout_marginRight="@dimen/xx_small"
+        android:layout_marginLeft="@dimen/xx_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/rate"
+            />
+
+        <EditText
+            android:id="@+id/addEtRateID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/rate"
+            android:inputType="number" />
+    </TableRow>
+    <TableRow
+        android:layout_marginBottom="@dimen/xx_small"
+        android:layout_marginRight="@dimen/xx_small"
+        android:layout_marginLeft="@dimen/xx_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            />
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="2"
+             android:layout_height="wrap_content"
+             >
+
+            <RadioButton
+                android:id="@+id/addRBYesID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/addRBNoID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no" />
+        </RadioGroup>
+    </TableRow>
+    <LinearLayout
+        android:layout_marginBottom="@dimen/xx_small"
+        android:layout_marginRight="@dimen/xx_small"
+        android:layout_marginLeft="@dimen/xx_small"
+        android:layout_marginTop="@dimen/x_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/addBtSaveID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/xx_small"
+        android:text="@string/save" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/addBtSelectID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/xx_small"
+            android:text="@string/select" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
