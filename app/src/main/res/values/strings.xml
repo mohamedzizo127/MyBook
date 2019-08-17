@@ -27,6 +27,7 @@
     <string name="sort_by">Sort By</string>
     <string name="title_activity_to_temp">ToTempAct</string>
     <string name="select">Slect Path</string>
+    <string name="error_message">Error Loading Data</string>
 
 
 </resources>
