@@ -91,7 +91,7 @@ public class PathUtil { /*
 
     public static String getFileName(Uri uri, Context context) {
 
-        // The query, since it only applies to a single document, will only return
+        // The QUERY, since it only applies to a single document, will only return
         // one row. There's no need to filter, sort, or select fields, since we want
         // all fields for one document.
         Cursor cursor = context.getContentResolver()

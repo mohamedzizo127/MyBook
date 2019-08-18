@@ -39,7 +39,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NetworkPackage.NBookDetailes"></activity>
+        <activity android:name=".NetworkPackage.NBookDetailes" />
+        <activity android:name=".NetworkPackage.NSearchActivity"></activity>
     </application>
 
 </manifest>
